@@ -33,5 +33,5 @@ We'll be giving feedback on each other's portfolios tomorrow morning.  Maybe a l
 
 
 ####Photos:
-![picture](screenshots/window.jpg)
+![picture]("./screenshots/window.jpg")
 
