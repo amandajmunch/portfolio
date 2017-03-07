@@ -34,7 +34,7 @@ We'll be giving feedback on each other's portfolios tomorrow morning.  Maybe a l
 
 ####Photos:
 
-![]('./screenshots/welcome.jpg')
+![Settings Window](https://raw.github.com/amandajmunch/hw-w06-d01-portfolio/master/screenshots/window.jpg)
 ![]('./screenshots/projects.jpg')
 ![]('./screenshots/bottom.jpg')
 
