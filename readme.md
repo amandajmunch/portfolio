@@ -34,8 +34,8 @@ We'll be giving feedback on each other's portfolios tomorrow morning.  Maybe a l
 
 ####Photos:
 
-![]('./screenshots/welcome')
-![]('./screenshots/projects')
-![]('./screenshots/bottom')
+![]('./screenshots/welcome.jpg')
+![]('./screenshots/projects.jpg')
+![]('./screenshots/bottom.jpg')
 
 
