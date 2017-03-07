@@ -33,5 +33,5 @@ We'll be giving feedback on each other's portfolios tomorrow morning.  Maybe a l
 
 
 ####Photos:
-![](https://git.generalassemb.ly/amandajmunch/hw-w06-d01-portfolio/screenshots/window.jpg)
+![](https://git.generalassemb.ly/amandajmunch/hw-w06-d01-portfolio/tree/master/screenshots/window.jpg)
 
