@@ -3,33 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Amanda Munch</title>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script> -->
   <link rel="stylesheet" href="./style.css">
-
+  <script src ="./jquery.js"></script>
+  <script src ="./style.js"></script>
 </head>
 <body>
   <div class="container">
       <div class="nav">
         <ul>
           <li>
-            <a href="http://server/page.html.about">About Me</a>
+            <a class="about" href="#about">| About Me</a>
           </li>
           <li>
-            <a href=".projects">Projects</a>
+            <a class="projects" href="#projects">| Projects</a>
           </li>
           <li>
-            <a href=".skills">Skills</a>
+            <a class="skills" href="#skills">| Skills</a>
           </li>
           <li>
-            <a href=".contact">Contact Me</a>
+            <a class="contact" href="#contact">| Contact Me</a>
           </li>
         </ul>
       </div>
-      <div class="name" id="parallaxParent">
+      <section id="name">
         <h1>Amanda Munch</h1>
-      </div>
-      <div class="about" id="parallaxParent">
+      </section>
+      <section id="about">
+        <br>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Doloremque tenetur consectetur, eveniet quo quam perspiciatis
          porro dignissimos, ea, praesentium cupiditate asperiores autem
@@ -38,8 +38,12 @@
         Doloremque tenetur consectetur, eveniet quo quam perspiciatis
          porro dignissimos, ea, praesentium cupiditate asperiores autem
          iste? Reprehenderit culpa, excepturi eum iure nisi quasi.</p>
-      </div>
-      <div class="projects" id="parallaxParent">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Doloremque tenetur consectetur, eveniet quo quam perspiciatis
+         porro dignissimos, ea, praesentium cupiditate asperiores autem
+         iste? Reprehenderit culpa, excepturi eum iure nisi quasi.</p>
+      </section>
+      <section id="projects">
         <div class="box">Pic here</div>
         <p class ="p1">Project 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           <br>
@@ -60,11 +64,11 @@
           <br>
           <a href="">Github </a> <a href=""> Website</a>
         </p>
-      </div>
-      <div class="skills" id="parallaxParent">
+      </section>
+      <section id="skills">
        <p>SKILL | SKILL | SKILL | SKILL | SKILL </p>
-      </div>
-      <div class="contact" id="parallaxParent">
+      </section>
+      <section id="contact">
         <a href="https://drive.google.com/file/d/0B3Cavl6CK5a2SzNtSWI3VFRFbjQ/view?usp=sharing">
           <img src="./images/resume.png" height="40px" width="40px">
         </a>
@@ -77,7 +81,7 @@
         <a href="https://github.com/amandajmunch">
           <img src="./images/github.gif" height="40px" width="40px">
         </a>
-      </div>
+      </section>
   </div>
 </body>
 </html>

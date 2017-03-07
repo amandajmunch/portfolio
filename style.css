@@ -1,18 +1,24 @@
 .container{
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
-  height: 450vh;
+  /*border: 2px solid red;*/
+  height: 550vh;
 }
 
 .nav{
-  border: 2px solid blue;
-  width: 100%;
-  /*z-index: 99;*/
+  /*border: 2px solid blue;*/
+  width: 98.5%;
+  z-index: 1000;
   position: fixed;
-  margin: 0;
+  /*margin: 0 auto;*/
+  top: 0;
   background-color: grey;
   font-size: 20px;
+}
+
+
+.active{
+  color:red;
 }
 
 .nav ul{
@@ -41,22 +47,31 @@
   content: " | ";
 }
 
-.name{
+
+a.active {
+  color:red;
+}
+
+
+#name{
   display: flex;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   justify-content: center;
   width: 100%;
   height: 60vh;
-  /*padding-top: 10%;*/
+  margin-top: 10%;
   align-items: center;
+  font-size: 50px;
+
 }
 
-.about{
+#about{
   text-align: center;
-  border: 2px solid yellow;
-  overflow-wrap: break-word;
-  height: 60vh;
-  padding: 40px;
+  /*border: 2px solid yellow;*/
+  /*overflow-wrap: break-word;*/
+  height: 80vh;
+  padding-top: 20vh;
+  /*margin-top: 20px;*/
 }
 
 
@@ -66,10 +81,12 @@
   align-items: center;
   width: 100%;
   height: 40vh;
-  border: 2px solid brown;
+  /*border: 2px solid brown;*/
   background-color: grey;
   color: white;
   font-size: 50px;
+  /*padding: 5vh;*/
+
 }
 
 p{
@@ -78,6 +95,7 @@ p{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /*padding: 20vh;*/
 
 }
 
@@ -99,49 +117,31 @@ p{
 }
 
 
-/*.git {
-  border: 2px solid red;
-  width: 20%;
-  height: 20%;
+#projects{
+  /*border: 2px solid orange;*/
+  padding-top: 10vh;
 }
 
-.web{
-  border: 2px solid red;
-  width: 20%;
-  height: 20%;
-
-}*/
-
-.projects{
-  border: 2px solid orange;
-}
-
-.skills{
-  border: 2px solid purple;
+#skills{
+  /*border: 2px solid purple;*/
   height: 30vh;
   text-align: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
-.contact{
-  border: 2px solid black;
+#contact{
+  /*border: 2px solid black;*/
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 20vh;
 }
 
-.contact a {
+#contact a {
   text-decoration: none;
   color: black;
+  padding: 10vh;
 }
 
 
-.parallaxParent {
-    height: 100vh;
-    overflow: hidden;
-  }
-.parallaxParent > * {
-    height: 200%;
-    position: relative;
-    top: -100%;
-}
