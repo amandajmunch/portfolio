@@ -32,4 +32,10 @@ We'll be giving feedback on each other's portfolios tomorrow morning.  Maybe a l
 
 
 
+####Photos:
+
+![Screenshot]('./screenshots/welcome')
+![Screenshot]('./screenshots/projects')
+![Screenshot]('./screenshots/bottom')
+
 
