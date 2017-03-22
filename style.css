@@ -41,8 +41,9 @@ body{
 
 
 .active{
-  color:red;
-  background-color: blue;
+  /*text-decoration: underline;*/
+  color: orange !important;
+  /*background-color: blue;*/
 }
 
 .nav ul{
@@ -65,11 +66,6 @@ body{
   justify-content: space-around;
   align-items: center;*/
   /*width: 100%;*/
-}
-
-
-nav.active {
-  background-color: red;
 }
 
 

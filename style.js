@@ -27,10 +27,10 @@ $(document).ready(() =>{
 $('section').mouseenter(function(){
      var id = $(this).attr('id');
      console.log(id);
-     $('nav.a').removeClass('active');
-     const nav = $('<a href=#'+ id + '</a>');
-     console.log(nav);
-     $('a' + id).addClass('active');
+     console.log($('li.' + id + ''));
+     console.log($('a.' + id));
+     $('a').removeClass('active');
+     $('a.' + id).addClass('active');
    });
 
 
