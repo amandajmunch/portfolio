@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "## Work on your portfolios:",
+  "main": "jquery.js",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-burger-menu": "^1.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandajmunch/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandajmunch/portfolio/issues"
+  },
+  "homepage": "https://github.com/amandajmunch/portfolio#readme"
+}

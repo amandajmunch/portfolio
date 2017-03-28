@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Amanda Munch</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
   <script src ="./jquery.js"></script>
   <script src ="./style.js"></script>
 </head>
@@ -27,23 +30,20 @@
         </ul>
         </nav>
       </div>
+      <div class="mobile-nav">
+        <a href="#menu" class="box-shadow-menu"></a>
+        <h1 class = "name">Amanda Munch</h1>
+         </div>
       <section id="name">
         <h3>Amanda Munch</h3>
       </section>
       <section id="about">
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Doloremque tenetur consectetur, eveniet quo quam perspiciatis
-         porro dignissimos, ea, praesentium cupiditate asperiores autem
-         iste? Reprehenderit culpa, excepturi eum iure nisi quasi.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Doloremque tenetur consectetur, eveniet quo quam perspiciatis
-         porro dignissimos, ea, praesentium cupiditate asperiores autem
-         iste? Reprehenderit culpa, excepturi eum iure nisi quasi.</p>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Doloremque tenetur consectetur, eveniet quo quam perspiciatis
-         porro dignissimos, ea, praesentium cupiditate asperiores autem
-         iste? Reprehenderit culpa, excepturi eum iure nisi quasi.</p>
+        <p>I'm a full-stack web developer based out of New York City. I
+        love front-end design, organized routers, craft beer, and dogs.
+        <br>
+        <br>Scroll on to
+        check out some of my projects. </p>
       </section>
       <section id="projects">
        <div class="box" id ="box1"></div>
@@ -53,23 +53,26 @@
             <a href="https://brewdex.herokuapp.com/" class= "web"> Website</a>
           </div>
         <div class="box">Pic here</div>
-        <p class ="p2">Project 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          <br>
-          <a href="">Github </a> <a href=""> Website</a>
-        </p>
+          <p class ="p2">Project 2. Lorem ipsum dolor sit amet, consectetur adipisicing elite</p>
+         <div class="links">
+            <a href="" class="github">Github </a>
+            <a href="" class= "web"> Website</a>
+          </div>
         <div class="box">Pic here</div>
-        <p class="p3">Project 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          <br>
-          <a href="">Github </a> <a href=""> Website</a>
-        </p>
+        <p class ="p3">Project 3. Lorem ipsum dolor sit amet, consectetur adipisicing elite</p>
+         <div class="links">
+            <a href="" class="github">Github </a>
+            <a href="" class= "web"> Website</a>
+          </div>
         <div class="box">Pic here</div>
-        <p class="p4">Project 4. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          <br>
-          <a href="">Github </a> <a href=""> Website</a>
-        </p>
+        <p class ="p4">Project 4. Lorem ipsum dolor sit amet, consectetur adipisicing elite</p>
+         <div class="links">
+            <a href="" class="github">Github </a>
+            <a href="" class= "web"> Website</a>
+          </div>
       </section>
       <section id="skills">
-        <p>Javascript | Ruby on Rails | React | Node.js | Express </p>
+        <p>Javascript | Ruby on Rails | React | Node.js | Express | Git</p>
       </section>
       <section id="contact">
         <a href="https://drive.google.com/file/d/0B3Cavl6CK5a2SzNtSWI3VFRFbjQ/view?usp=sharing">
@@ -85,6 +88,34 @@
           <img src="./images/github.gif" height="40px" width="40px">
         </a>
       </section>
+      </div>
+    <div id='modal'>
+
+    <!-- <a href="#menu" class="hamburger-close"></a> -->
+      <div class="side-nav">
+        <ul>
+          <li>
+            <a href="#about" class="about"> About Me</a>
+          </li>
+          <br>
+          <li>
+            <a href="#projects" class="projects"> Projects</a>
+          </li>
+          <br>
+          <li>
+            <a href="#skills" class="skills"> Skills</a>
+          </li>
+          <br>
+          <li>
+            <a href="#contact" class="contact"> Contact Me</a>
+          </li>
+          <br>
+        </ul>
+<!--         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger"></label> -->
+        </div>
+
+    </div>
   </div>
 </body>
 </html>
