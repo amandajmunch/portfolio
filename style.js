@@ -59,21 +59,39 @@ var aChildren = $("nav li").children(); // find the a children of the list items
 
   var $hamburger = $('.box-shadow-menu');
   var $modal = $('#modal');
-  var $modalButton = $('#modal button');
+  var $modalButton = $('.closebtn');
 
   var toggleModal = function(){
     $modal.fadeToggle('slow');
+     // $modal.toggle('slide');
   }
 
-  $hamburger.click(toggleModal);
-  $modalButton.click(toggleModal);
-  $('.hamburger-close').click(toggleModal);
-  $('a.side-nav').click(toggleModal);
+  // $('.hamburger-close').click(toggleModal);
+  // $('a.side-nav').click(toggleModal);
+function openNav() {
+    $(".side-nav").css("width", "0");
+    $('.side-nav').css("width","250px");
+
+    // $('.side-nav').addClass('open');
+    $(".container").css("margin-left","0");
+    $(".container").css("margin-left", "250px");
+    // $('.container').addClass('open');
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    $(".side-nav").css("width", "0");
+    $(".container").css("margin-left","0");
+}
+
+
+  $hamburger.click(openNav);
+  $modal.click(closeNav);
+
 
 $('.box-shadow-menu').click(function () {
       $('.side-nav').toggleClass('expand');
     })
-
 
 
 
