@@ -86,7 +86,7 @@ function closeNav() {
 
 
   $hamburger.click(openNav);
-  $modal.click(closeNav);
+  $modalButton.click(closeNav);
 
 
 $('.box-shadow-menu').click(function () {

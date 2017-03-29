@@ -2,30 +2,115 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>Amanda Munch</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mobile.css">
+  <link rel="stylesheet" href="./normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <script src ="./jquery.js"></script>
+  <script src ="./style.js"></script>
 </head>
 <body>
-  <div class="coming">
-    <div class="coming-soon">
-      <h1>Website Coming Soon</h1>
+  <div class="side-nav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+          <li>
+            <a href="#about" class="about"> About Me</a>
+          </li>
+          <br>
+          <li>
+            <a href="#projects" class="projects"> Projects</a>
+          </li>
+          <br>
+          <li>
+            <a href="#skills" class="skills"> Skills</a>
+          </li>
+          <br>
+          <li>
+            <a href="#contact" class="contact"> Contact Me</a>
+          </li>
+          <br>
+        </ul>
+    </div>
+  <div class="container">
+      <div class="nav">
+      <nav>
+        <ul>
+          <li>
+            <a href="#about" class="about"> About Me</a>
+          </li>
+          <li>
+            <a href="#projects" class="projects"> Projects</a>
+          </li>
+          <li>
+            <a href="#skills" class="skills"> Skills</a>
+          </li>
+          <li>
+            <a href="#contact" class="contact"> Contact Me</a>
+          </li>
+        </ul>
+        </nav>
       </div>
+      <div class="mobile-nav">
+        <a href="#menu" class="box-shadow-menu"></a>
+        <h1 class = "name">Amanda Munch</h1>
+         </div>
+      <section id="name">
+        <h3>Amanda Munch</h3>
+      </section>
+      <section id="about">
+        <br>
+        <p>I'm a full-stack web developer based out of New York City. I
+        love front-end design, organized routers, craft beer, and dogs.
+        <br>
+        <br>Scroll on to
+        check out some of my projects. </p>
+      </section>
+      <section id="projects">
+       <div class="box" id ="box1"></div>
+        <p class ="p1">Add, update, and delete beers from your wishlist using BreweryDB's API. Node, Express, Mustache, JQuery.</p>
+          <div class="links">
+            <a href="https://github.com/amandajmunch/brewdex" class="github">Github </a>
+            <a href="https://brewdex.herokuapp.com/" class= "web"> Website</a>
+          </div>
+        <div class="box">Pic here</div>
+          <p class ="p2">Project 2. Lorem ipsum dolor sit amet, consectetur adipisicing elite</p>
+         <div class="links">
+            <a href="" class="github">Github </a>
+            <a href="" class= "web"> Website</a>
+          </div>
+        <div class="box">Pic here</div>
+        <p class ="p3">Project 3. Lorem ipsum dolor sit amet, consectetur adipisicing elite</p>
+         <div class="links">
+            <a href="" class="github">Github </a>
+            <a href="" class= "web"> Website</a>
+          </div>
+        <div class="box">Pic here</div>
+        <p class ="p4">Project 4. Lorem ipsum dolor sit amet, consectetur adipisicing elite</p>
+         <div class="links">
+            <a href="" class="github">Github </a>
+            <a href="" class= "web"> Website</a>
+          </div>
+      </section>
+      <section id="skills">
+        <p>Javascript | Ruby on Rails | React | Node.js | Express | Git</p>
+      </section>
       <section id="contact">
-          <a href="https://drive.google.com/file/d/0B3Cavl6CK5a2SzNtSWI3VFRFbjQ/view?usp=sharing">
-            <img src="./images/resume.png" height="40px" width="40px">
-          </a>
-          <a href="mailto:amandajmunch@gmail.com?subject=Portfolio">
-            <img src="./images/email.png" height="30px" width="40px">
-          </a>
-          <a href="https://www.linkedin.com/in/amandamunch">
-            <img src="./images/linkedin.png" height="40px" width="40px">
-          </a>
-          <a href="https://github.com/amandajmunch">
-            <img src="./images/github.gif" height="40px" width="40px">
-          </a>
-        </section>
+        <a href="https://drive.google.com/file/d/0B3Cavl6CK5a2SzNtSWI3VFRFbjQ/view?usp=sharing">
+          <img src="./images/resume.png" height="40px" width="40px">
+        </a>
+        <a href="mailto:amandajmunch@gmail.com?subject=Portfolio">
+          <img src="./images/email.png" height="30px" width="40px">
+        </a>
+        <a href="https://www.linkedin.com/in/amandamunch">
+          <img src="./images/linkedin.png" height="40px" width="40px">
+        </a>
+        <a href="https://github.com/amandajmunch">
+          <img src="./images/github.gif" height="40px" width="40px">
+        </a>
+      </section>
+      </div>
   </div>
 </body>
 </html>
-

@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "## Work on your portfolios:",
   "main": "jquery.js",
-  "dependencies": {
-    "react": "^15.4.2",
-    "react-burger-menu": "^1.1.6"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
