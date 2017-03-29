@@ -4,9 +4,6 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-body{
-  width: 100vh;
-}
 .container{
   /*display: flex;*/
   /*flex-direction: column;*/
@@ -88,15 +85,15 @@ body{
     font-size: 30px;
   }
 
-.sidenav .closebtn {
-    /*display: flex;
-    flex-direction: column;*/
+.closebtn {
+    display: flex;
+    flex-direction: column;
     top: 0;
-    right: 25px;
-    justify-content: flex-end;
+    /*right: 25px;*/
+    align-self: flex-end;
     /*right: 25px;*/
     font-size: 36px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 }
 
 .side-nav .open{
@@ -130,11 +127,11 @@ body{
 }
 
 .side-nav ul{
-  position: fixed;
+  /*position: fixed;*/
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 70vh;
+  height: 50%;
 }
 
 .side-nav a {
@@ -144,7 +141,7 @@ body{
   justify-content: space-between;
   text-decoration: none;
   color: white;
-  font-size: 5vh;
+  font-size: 10vh;
 }
 
 
@@ -306,6 +303,7 @@ p{
 }
 body{
   margin: 0;
+  width: 100vh;
   background-color: #FDFCFC;
 }
 
