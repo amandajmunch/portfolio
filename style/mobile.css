@@ -1,0 +1,526 @@
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 600px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.container{
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid blue;*/
+  height: 1050vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  width: 100vh;
+}
+
+body{
+  margin: 0;
+  background-color: #FDFCFC;
+  width: 100%;
+}
+
+#box1{
+  background-image: url('../images/brewdex.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*width: 100%;*/
+  /*/
+  /*height: 20vh;*/
+  /*background-color: red;*/
+}
+
+#box2{
+  background-image: url('../images/connect4.jpg');
+  /*background-repeat: no-repeat;*/
+  background-position: center center;
+  background-size: cover;
+  /*/
+  /*height: 20vh;*/
+  /*background-color: red;*/
+}
+
+
+
+.nav{
+  /*border: 2px solid blue;*/
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  font-size: 20px;
+  box-shadow: 3px 3px 5px .5px #e9e9e9;
+  /*margin-bottom: 20px;*/
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    /*margin-top:12px;*/
+}
+
+.active{
+  color: orange !important;
+}
+
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 100%;*/
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  /*width: 100%;*/
+  /*color: white;*/
+
+}
+
+.nav li{
+/*  display: flex;
+  justify-content: space-around;
+  align-items: center;*/
+  /*width: 100%;*/
+}
+
+
+#name{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  font-size: 60px;
+
+}
+
+#about{
+  text-align: center;
+  /*overflow-wrap: break-word;*/
+  height: 82vh;
+  padding-top: 20vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  font-size: 20px;
+  /*border: 2px solid red;*/
+  /*margin-top: 20px;*/
+}
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  /*border: 2px solid brown;*/
+  background-color: grey;
+  color: white;
+  font-size: 50px;
+  /*padding: 5vh;*/
+
+}
+
+p{
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+  /*padding: 20vh;*/
+
+}
+
+.p1{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+.p2{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+.p3{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+
+.p4{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+
+#projects{
+  /*border: 2px solid orange;*/
+  padding-top: 6vh;
+  top: 0;
+  /*margin-top: 0;*/
+  /*height: 700vh;*/
+}
+
+#skills{
+  /*border: 2px solid purple;*/
+  height: 70vh;
+  text-align: center;
+  padding-top: 24vh;
+  font-size: 36px;
+  /*margin-top: 26vh;*/
+  /*padding-bottom: 10vh;*/
+}
+
+#contact{
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 70vh;
+  /*border: 2px solid red;*/
+  /*margin-top: 10vh;*/
+  /*padding-top: 10vh;*/
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+  padding: 10vh;
+}
+
+.coming-soon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  font-family: 'Helvetica', serif;
+  font-size: 20px;
+  color: #6499BE;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /*border: 2px solid red;*/
+  height: 40vh;
+}
+
+.github{
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 6px;
+}
+
+.web{
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 6px;
+  color: black;
+
+}
+
+.github:hover{
+  border-color: orange;
+  color:orange;
+}
+
+.web:hover{
+  border-color: orange;
+  color:orange;
+
+
+}
+
+
+.mobile-nav {
+  display: none;
+}
+
+.side-nav {
+  display: none;
+}
+
+
+}
+
+/*iphone 6 +*/
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 720px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+   .container{
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+  height: 1050vh;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  width: 100vh;
+}
+
+body{
+  margin: 0;
+  background-color: #FDFCFC;
+  width: 100%;
+}
+
+#box1{
+  background-image: url('../images/brewdex.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*width: 100%;*/
+  /*/
+  /*height: 20vh;*/
+  /*background-color: red;*/
+}
+
+#box2{
+  background-image: url('../images/connect4.jpg');
+  /*background-repeat: no-repeat;*/
+  background-position: center center;
+  background-size: cover;
+  /*/
+  /*height: 20vh;*/
+  /*background-color: red;*/
+}
+
+
+.nav{
+  /*border: 2px solid blue;*/
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  font-size: 20px;
+  box-shadow: 3px 3px 5px .5px #e9e9e9;
+  /*margin-bottom: 20px;*/
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    /*margin-top:12px;*/
+}
+
+.active{
+  color: orange !important;
+}
+
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  /*width: 100%;*/
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+  /*width: 100%;*/
+  /*color: white;*/
+
+}
+
+.nav li{
+/*  display: flex;
+  justify-content: space-around;
+  align-items: center;*/
+  /*width: 100%;*/
+}
+
+
+#name{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  font-size: 60px;
+
+}
+
+#about{
+  text-align: center;
+  /*overflow-wrap: break-word;*/
+  height: 82vh;
+  padding-top: 20vh;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  font-size: 20px;
+  /*border: 2px solid red;*/
+  /*margin-top: 20px;*/
+}
+
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  /*border: 2px solid brown;*/
+  background-color: grey;
+  color: white;
+  font-size: 50px;
+
+  /*padding: 5vh;*/
+
+}
+
+p{
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+
+  /*padding: 20vh;*/
+
+}
+
+.p1{
+  height: 40vh;
+  font-size: 20px;
+  text-align: center;
+}
+
+.p2{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+.p3{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+
+.p4{
+  height: 40vh;
+  font-size: 20px;
+   text-align: center;
+}
+
+
+#projects{
+  /*border: 2px solid orange;*/
+  padding-top: 6vh;
+  top: 0;
+  /*margin-top: 0;*/
+  /*height: 700vh;*/
+}
+
+#skills{
+  /*border: 2px solid purple;*/
+  height: 70vh;
+  text-align: center;
+  padding-top: 24vh;
+  font-size: 36px;
+  /*margin-top: 26vh;*/
+  /*padding-bottom: 10vh;*/
+}
+
+#contact{
+  /*border: 2px solid black;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 70vh;
+  /*border: 2px solid red;*/
+  /*margin-top: 10vh;*/
+  /*padding-top: 10vh;*/
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+  padding: 10vh;
+}
+
+.coming-soon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  font-family: 'Helvetica', serif;
+  font-size: 20px;
+  color: #6499BE;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /*border: 2px solid red;*/
+  height: 40vh;
+}
+
+.github{
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 6px;
+}
+
+.web{
+  border: 2px solid black;
+  text-decoration: none;
+  padding: 2px;
+  border-radius: 6px;
+  color: black;
+
+}
+
+.github:hover{
+  border-color: orange;
+  color:orange;
+}
+
+.web:hover{
+  border-color: orange;
+  color:orange;
+
+
+
+}
+
+
+.mobile-nav {
+  display: none;
+}
+
+.side-nav {
+  display: none;
+}
+
+}
+

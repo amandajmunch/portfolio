@@ -2,7 +2,8 @@
     font-family: 'futura';
     src: url(./futura.ttf) format("truetype");
 }*/
-
+@media only screen
+  and (min-device-width: 721px){
 .container{
   display: flex;
   flex-direction: column;
@@ -10,21 +11,37 @@
   height: 1050vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  width: 100%;
 }
 
 body{
   margin: 0;
   background-color: #FDFCFC;
+  width: 100%;
 }
 
 #box1{
-  background-image: url('./images/brewdex.jpg');
+  background-image: url('../images/brewdex.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   /*/
   /*height: 20vh;*/
   /*background-color: red;*/
+}
+
+#box2{
+  background-image: url('../images/connect4.jpg');
+  /*background-repeat: no-repeat;*/
+  /*background-position: center center;*/
+  background-size: cover;
+  /*/
+  /*height: 20vh;*/
+  /*background-color: red;*/
+}
+#box3{
+  background-image: url('../images/apartment-room.jpg');
+  background-size: cover;
 }
 
 .nav{
@@ -239,4 +256,4 @@ p{
   display: none;
 }
 
-
+}
