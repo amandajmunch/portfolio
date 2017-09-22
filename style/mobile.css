@@ -5,8 +5,6 @@
 .container{
   display: flex;
   flex-direction: column;
-  /*border: 2px solid blue;*/
-  /*height: 1050vh;*/
   margin: 0;
   font-family: 'Lato', sans-serif;
   width: 100vh;
@@ -81,7 +79,6 @@ body{
   height: 100vh;
   align-items: center;
   font-size: 120px;
-
 }
 
 #about{
@@ -211,20 +208,20 @@ p{
 .github{
   border: 1px solid black;
   text-decoration: none;
-  padding: 4px;
+  padding: 6px;
   border-radius: 6px;
   color: black;
-  margin-bottom: 6px;
-  font-size: 30px;
+  margin-bottom: 2vh;
+  font-size: 70px;
 }
 
 .web{
   border: 1px solid black;
   text-decoration: none;
-  padding: 4px;
+  padding: 6px;
   border-radius: 6px;
   color: black;
-  font-size: 30px;
+  font-size: 70px;
 
 }
 
@@ -299,259 +296,3 @@ p{
     transition: all 1s ease;
 }
 }
-
-
-/*
-/*iphone 6 +*/
-/*@media only screen
-  and (min-device-width: 414px)
-  and (max-device-width: 720px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-   .container{
-  display: flex;
-  flex-direction: column;
-  height: 1050vh;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  width: 100vh;
-}
-
-body{
-  margin: 0;
-  background-color: #FDFCFC;
-  width: 100%;
-}
-
-#box1{
-  background-image: url('../images/brewdex.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-#box2{
-  background-image: url('../images/lyft-data.jpg');
-  background-position: center center;
-  background-size: cover;
-
-}
-
-#box3{
-  background-image: url('../images/apartment-room.jpg');
-  background-position: center center;
-  background-size: cover;
-
-}
-
-#box4{
-  background-image: url('../images/diydog.jpg');
-  background-size: cover;
-}
-
-.nav{
-  width: 100%;
-  z-index: 1000;
-  position: fixed;
-  top: 0;
-  background-color: white;
-  font-size: 20px;
-  box-shadow: 3px 3px 5px .5px #e9e9e9;
-
-}
-
-nav.stick {
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-
-}
-
-.active{
-  color: orange !important;
-}
-
-.nav ul{
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  align-items: center;
-  justify-content: space-around;
-
-}
-.nav a{
-  text-decoration: none;
-  color: black;
-
-}
-
-.nav li{
-
-}
-
-
-#name{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  font-size: 60px;
-
-}
-
-#about{
-  text-align: center;
-
-  height: 82vh;
-  padding-top: 20vh;
-  margin-left: 10vh;
-  margin-right: 10vh;
-  font-size: 20px;
-
-}
-
-
-.box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 80vh;
-
-  background-color: grey;
-  color: white;
-  font-size: 50px;
-
-
-}
-p{
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 40vh;
-  text-align: center;
-
-  margin-left: 10vh;
-  margin-right: 10vh;
-
-
-}
-
-.p1{
-  height: 40vh;
-  font-size: 20px;
-}
-
-.p2{
-  height: 40vh;
-  font-size: 20px;
-}
-
-.p3{
-  height: 40vh;
-  font-size: 20px;
-  text-align: center;
-
-}
-
-.p4{
-  height: 40vh;
-  font-size: 20px;
-}
-
-
-#projects{
-
-  padding-top: 6vh;
-  top: 0;
-
-}
-
-#skills{
-
-  height: 6bo0vh;
-  text-align: center;
-  padding-top: 24vh;
-  font-size: 36px;
-
-}
-
-#contact{
-
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  height: 80vh;
-
-}
-
-#contact a {
-  text-decoration: none;
-  color: black;
-  padding: 10vh;
-}
-
-.coming-soon{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30vh;
-  font-family: 'Helvetica', serif;
-  font-size: 20px;
-  color: #6499BE;
-}
-
-.links{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  height: 40vh;
-}
-
-.github{
-  border: 2px solid black;
-  text-decoration: none;
-  padding: 2px;
-  border-radius: 6px;
-  color: black;
-  margin-bottom: 6px;
-}
-
-.web{
-  border: 2px solid black;
-  text-decoration: none;
-  padding: 2px;
-  border-radius: 6px;
-  color: black;
-
-}
-
-.github:hover{
-  border-color: orange;
-  color:orange;
-}
-
-.web:hover{
-  border-color: orange;
-  color:orange;
-
-
-
-}
-
-
-.mobile-nav {
-  display: none;
-}
-
-.side-nav {
-  display: none;
-}
-
-}
-
-*/
