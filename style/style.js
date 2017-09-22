@@ -57,38 +57,6 @@ var aChildren = $("nav li").children(); // find the a children of the list items
         }
     });
 
-// // mobile
-//   var $hamburger = $('.box-shadow-menu');
-//   var $modal = $('#modal');
-//   var $modalButton = $('.closebtn');
-
-//   var toggleModal = function(){
-//     $modal.fadeToggle('slow');
-//      // $modal.toggle('slide');
-//   }
-
-//   // $('.hamburger-close').click(toggleModal);
-//   // $('a.side-nav').click(toggleModal);
-// function openNav() {
-
-//     $('.side-nav').css("width","60vh");
-//     $('.side-nav').addClass('expand');
-
-//     $(".container").css("margin-left", "60vh");
-//     $("body").css("overflow", "hidden");
-// }
-
-// /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-// function closeNav() {
-//     $(".side-nav").css("width", "0");
-//     $(".container").css("margin-left","0");
-//     $("body").css('overflow', 'auto');
-//     $("nav a").css("display", 'hidden');
-// }
-
-
-//   $hamburger.click(openNav);
-//   $modalButton.click(closeNav);
 
 
 
